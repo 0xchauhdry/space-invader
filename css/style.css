@@ -3,3 +3,38 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    text-align: center;
+    background: lightblue;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 460px;
+    height: 460px;
+
+    margin: auto;
+    background: white;
+    border: 5px solid black;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+
+.invader {
+    background: orangered;
+    border-radius: 50%;
+}
+
+.hero {
+    background: green;
+}
+
+.bomb {
+    background: yellowgreen;
+}
