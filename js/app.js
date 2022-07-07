@@ -144,7 +144,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     clearInterval(interval)
                     alert('GAME OVER')
                 }
-                }
+            }
         }
         if (results === 30){
             clearInterval(interval)
